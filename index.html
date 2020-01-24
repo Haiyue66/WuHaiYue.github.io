@@ -101,17 +101,16 @@
 
       
       <h5 id="1-下载nodejs"><a href="#1-下载nodejs" class="headerlink" title="1.下载nodejs"></a>1.下载nodejs</h5><p>登陆nodejs.org，下载并安装，安装的时候不停的下一步就行了<br>安装好后会出现nodejs和npm管理器<br>打开cmd，输入node -v查看node版本,npm -v查看包管理器的版本</p>
-<h5 id="2-利用npm安装cnpm："><a href="#2-利用npm安装cnpm：" class="headerlink" title="2.利用npm安装cnpm："></a>2.利用npm安装cnpm：</h5><p>输入npm install -g cnpm —registry=<a href="http://registry.npm.taobao.org" target="_blank" rel="noopener">http://registry.npm.taobao.org</a><br>等待安装，安装完成后输入cnpm -v查看当前版本，确认下载成功</p>
-<h5 id="3-利用cnpm安装hexo框架："><a href="#3-利用cnpm安装hexo框架：" class="headerlink" title="3.利用cnpm安装hexo框架："></a>3.利用cnpm安装hexo框架：</h5><p>输入cnpm install -g hexo-cli<br>这样hexo博客框架安装完毕</p>
-<h5 id="4-开始正式搭建博客"><a href="#4-开始正式搭建博客" class="headerlink" title="4.开始正式搭建博客"></a>4.开始正式搭建博客</h5><p>先创建一个新的文件夹blog，如果在创建的过程中出现什么问题，直接把blog删掉重来，输入cd blog，进入blog路径下，输入hexo init，表示初始化一个博客，必须在管理员模式下进行，等待一段时间，这时框架已经安装成功了，输入hexo s，表示启动博客<br>然后可以自己修改博客，记得hexo clean表示清理，hexo g表示生成，然后hexo s启动</p>
-<h5 id="5-部署到github"><a href="#5-部署到github" class="headerlink" title="5.部署到github"></a>5.部署到github</h5><p>部署前准备：下载github，然后配置git的用户名和邮箱（具体方法自己百度），配置ssh公钥<br>5.1在github上创建一个库，库的名字必须和自己的用户名一致，在dos命令窗口输入：cnpm install —save hexo-deployer-git ,装完之后，修改blog当中的_config.yml文件，在文件的最底部，加入<br>type: git  repo:(库的地址） banch: master ,修改完成后dos窗口输入hexo d，这时候电脑里面的网页相关的文件会被传送到github的库里面，输入相关网址即可访问</p>
-
+<h5 id="2-利用npm安装cnpm："><a href="#2-利用npm安装cnpm：" class="headerlink" title="2.利用npm安装cnpm："></a>2.利用npm安装cnpm：</h5><p>输入npm install -g cnpm —registry=<a href="http://registry.npm.taobao.org" target="_blank" rel="noopener">http://registry.npm.taobao.org</a><br>等待安装，安装完成后输入cnpm -v查看当前版本，确认下载成功
+      
+      <a class="article-more-link" href="/2020/01/20/%E5%90%B4%E6%B5%B7%E5%B2%B3%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/">阅读更多...</a>
+      
       
       <!-- 打赏 -->
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/01/20/%E5%90%B4%E6%B5%B7%E5%B2%B3%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" data-id="ck5rv35a50000n8tdev2sf24g"
+      <a data-url="http://yoursite.com/2020/01/20/%E5%90%B4%E6%B5%B7%E5%B2%B3%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" data-id="ck5s200hx000054tdbz8ced5v"
         class="article-share-link">分享</a>
       
     </footer>
@@ -144,11 +143,6 @@
         John Doe
       </li>
       <li>
-        
-          Powered by
-        
-        
-        <a href="https://hexo.io" target="_blank">Hexo</a> Theme <a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank">Ayer</a>
         
       </li>
     </ul>
